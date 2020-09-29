@@ -30,3 +30,6 @@ This is a very basic site showcasing Swedish cottages.
 - Describe the basic of Cascading Style Sheets (CSS)
 - Use the Document Object Model (DOM) to modify pages
 - Add responsive design to enable page to be viewed by varius devices
+
+## Website DEMO
+Will be added later...
