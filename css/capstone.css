@@ -1,0 +1,241 @@
+body, html {
+  height: 100%;
+}
+
+body{
+	color: #000000;
+	/* Background image */
+  	background: url("../img/sweden-nature.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+
+/* NAVBAR */
+
+/* Navbar bg color */
+.navbar{background-color: white;}
+
+/* Navbar logo */
+a.navbar-brand{
+	font-family: "Pacifico", cursive; /* Font in Navbar */
+	font-size: 25px;
+	padding-bottom: 5px;
+	padding-left: 1%;
+}
+
+/* Navbar links */
+a.nav-link{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	padding-bottom: 0;
+}
+
+/* Navbar drop-down */
+.dropdown-menu{
+	background-color: rgba(203, 204, 206, 1) !important;
+	border: none;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:1px;
+}
+
+/* Navbar drop-down link and divider styling */
+.dropdown-menu a:link{
+  color: #000000;
+  text-decoration: none;
+}
+.dropdown-menu a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+.dropdown-menu a:hover{
+  color: rgba(203, 204, 206, 1);
+  text-decoration: none;
+}
+.dropdown-menu a:active{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.dropdown-divider{
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* MAIN SECTION */
+.container{
+	margin-left: 1%; 
+}
+
+/* Index and About */
+#starter-text{
+	margin-top: 40%; 
+	display: inline-block;
+}
+
+/* Index heading */
+#page-title{
+	font-size: 2.5em;
+	font-family: 'Amatic SC', cursive;
+}
+
+/* About and Houses heading */
+#about-title, #houses-title, #address-title{
+	font-size: 2em;
+	font-family: 'Amatic SC', cursive;
+}
+
+/* Houses heading */
+#houses-title{
+	margin-left: 2.5%; 
+}
+
+/* Houses */
+#main-house{
+	margin-top: 80px;
+}
+
+/* Link text in Index*/
+#less-margin{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+/* Link style main section Index and About */
+#starter-text a:link{
+  color: #FFFFFF;
+  text-decoration:none;
+}
+#starter-text a:visited{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#starter-text a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+#starter-text a:active{
+  color: rgba(203, 204, 206, 1);
+  text-decoration: none;
+}
+
+/* Link style main section Houses and House	1-6 */
+#main-house a:link{
+  color: #000000;
+  text-decoration: none;
+}
+#main-house a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+#main-house a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#main-house a:active{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Link style House	1-6 View Listing */
+#view-listing a:link{
+  color: #000000;
+  text-decoration: none;
+}
+#view-listing a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+#view-listing a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#view-listing a:active{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* JS arrow on Index page */
+.center-con {
+    display: inline-block;
+    height: 1vh;
+}
+
+.round {
+    position: absolute;
+}
+
+#cta{
+    width:100%; cursor: pointer; position: absolute;
+}
+
+#cta .arrow{left: 30%;}
+.arrow {position: absolute; bottom: 0;  margin-left:0px; width: 12px; height: 12px; background-size: contain; top:0;}
+.segunda{margin-left: 8px;}
+.next {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+
+/* Images in Cards on Houses */
+.image-style{
+	width: 100%;
+	height: auto;
+}
+
+/* Google maps on House1-6 */
+.google-map{
+	margin-top: 127px;
+}
+
+.map{
+	width:400px;
+	height:300px;
+}
+
+/* STICKY FOOTER */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
