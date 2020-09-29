@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    
+    <!-- For Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="    sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Nordic Cottages</title>
+    
+    <!-- CSS, JavaScript and external Fonts and Icons -->
+    <link rel="stylesheet" href="css/capstone.css">
+    <script src = "js/capstone.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8bf5e6b33c.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Navigation bar -->
+      <nav class="navbar fixed-top navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html">Nordic Cottages</a>
+        <!-- Hamburger menu only visible on small screens-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="   navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Left menu items after navbar brand (logo) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- About menu item -->
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- Houses menu item -->
+            <li class="nav-item">
+              <a class="nav-link active" href="houses.html">HOUSES <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- External links in dropdown menu item -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="   true" aria-expanded="false">MORE HOUSES</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.hemnet.se/" target="_blank">Hemnet</a>
+                <a class="dropdown-item" href="https://www.habity.co/" target="_blank">Habity</a>
+                <a class="dropdown-item" href="https://www.booli.se/" target="_blank">Booli</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://bostad.blocket.se/" target="_blank">Blocket Bostad</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Social media links right menu items -->
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank"><i class="fab fa-pinterest-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main section -->
+    <div class = "container">
+      <div class="row">
+
+        <div class="col-md-6">
+         <section>
+          <div id="main-house">
+            <h2 id="address-title">Trollsj&ouml;v&auml;gen 13, Vreta Kloster</h2>
+            <img src="img/house6.jpg" alt="house 6" class="img-thumbnail">
+            <div class="d-flex justify-content-between align-items-center">
+              <p>2 rooms, 40 sqm</p>
+              <p>315.000 SEK</p>
+            </div>
+            <p>A warm welcome to a small, cozy cottage on leased land! Cottage with living room with wood burning stove, bedroom and kitchen. Guesthouse, storage house and composting toilet. Partially glazed terrace.</p>
+            <div id="view-listing">
+              <a href="houses.html" class="btn btn-outline-secondary btn-sm">Go back</a>
+              <a href="https://www.magnussonmakleri.se/objekt/obj12644_1804150021/" class="btn btn-outline-secondary btn-sm">View listing</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="google-map col-md-6">
+        <!--Google maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2083.109235747567!2d15.561549551550838!3d58.52635648129366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46596780bafd42b1%3A0x2df0014f3535d40!2sTROLLSJ%C3%96V%C3%84GEN%2013%2C%20590%2078%20Vreta%20Kloster%2C%20Sweden!5e0!3m2!1sen!2sus!4v1600973625559!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" aria-hidden="false" tabindex="0" class="map img-thumbnail"></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer footer-transparent">
+   <div>
+     <p><small>Copyright 2020 &copy; Nordic Cottages</small></p>
+   </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/   zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="  sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="  sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+
+<!-- Thank you Emma Waleij via Unsplash for the background image! -->
